@@ -1,0 +1,30 @@
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decodificador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="alura-section">
+    <img src="Logo@2x.png" alt="Logo da Alura" class="alura-img">
+  </section>
+  <main>
+    <textarea name="input" id="input" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+    <div>
+      <p class="alert-text"><img src="./svg/alert.svg" alt="Alerta" class="alert-img">Apenas letras minúsculas e sem acento</p>
+      
+    </div>  
+  </main>
+  <section class="messages">
+    <img src="High quality products 1 1.svg" alt="Pessoa com uma lupa olhando" class="img disable">
+    <h1 class="advice-title disable">Nenhuma mensagem encontrada</h1>
+    <p class="advice-text disable">Texto para ser criptografado</p>
+    <p class="result-text"></p>
+    <button class="btn white enable copy" onclick="copy(document.querySelector('.result-text').innerHTML)">Copiar</button> 
+  </section>
+  <footer></footer>
+  <script src=".\main.js"></script>
+</body>
+
+</html>
